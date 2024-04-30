@@ -15,11 +15,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="submit" class="search-form-button" />
         </form>
@@ -27,7 +28,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="current-city">Lagos</h1>
+            <h1 class="current-city" id="city">Lagos</h1>
             <p class="current-details">
               Wednesday 8:13, <strong>overcast clouds</strong>
               <br />
@@ -54,5 +55,6 @@
         >
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
