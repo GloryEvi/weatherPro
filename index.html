@@ -15,21 +15,31 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city.." />
-          <input type="submit" value="submit" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            class="search-form-input"
+          />
+          <input type="submit" value="submit" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Lagos</h1>
-          <p>
-            Wednesday 8:13, overcast clouds
-            <br />
-            Humidity: 62%, Wind: 2.06km/h
-          </p>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="current-city">Lagos</h1>
+            <p class="current-details">
+              Wednesday 8:13, <strong>overcast clouds</strong>
+              <br />
+              Humidity: <strong>62%</strong>, Wind: <strong>2.06km/h</strong>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <span class="weather-app-icon">🌧</span
+            ><span class="weather-app-temperature">34</span
+            ><span class="weather-app-unit">℃</span>
+          </div>
         </div>
-        <div>🌧34℃</div>
       </main>
       <footer>
         Coded by
