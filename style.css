@@ -82,3 +82,17 @@ footer {
   margin-top: 20px;
   color: #f9f7fe;
 }
+.weather-forcast {
+  margin-top: 20px;
+  color: #000;
+}
+.weather-forcast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.weather-forcast-temperatures {
+  font-size: 13px;
+}
+.weather-forcast-temperature-min {
+  opacity: 0.6;
+}
